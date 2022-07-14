@@ -118,12 +118,16 @@ nav > a[href] {
     height: 600px;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(47, 48, 58);
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
     ),
         url("../images/hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .portfolio-page .subtitle {
     font-size: 18px;
@@ -176,7 +180,6 @@ nav > a[href] {
 
 /* sections */
 .hero {
-    background-color: #2f303a;
     text-align: center;
     padding-bottom: 200px;
     padding-top: 200px;
