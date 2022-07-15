@@ -22,8 +22,18 @@
             </ul>
         </nav>
         <ul class="auth-nav">
-            <li class="item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="item"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="item"><a class="auth-nav-link" href="mailto:info@devstudio.com">
+                    <svg class="auth-nav-icon" width="16" height="12">
+                        <use href="./images/symbol-defs.svg#envelope"></use>
+                    </svg>
+                    info@devstudio.com</a>
+            </li>
+            <li class="item"><a class="auth-nav-link" href="tel:+380961111111">
+                    <svg class="auth-nav-icon" width="10" height="16">
+                        <use href="./images/symbol-defs.svg#smartphone"></use>
+                    </svg>
+                    +38 096 111 11 11</a>
+            </li>
         </ul>
         </div>
     </header>
@@ -105,19 +115,52 @@
         </ul>
     </main>
     <footer>
-        <div class="container">
-        <a href="./index.html" class="logo">Web<span class="foot-part">Studio</span></a>
-        </div>
-        <div class="container">
-        <address>
-            <ul>
-                <li><a href="https://goo.gl/maps/piqngm7oDQpEDh6u6" target="_blank" rel="noopener nofollow noreferrer"
-                        class="map">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="mailto:info@example.com" class="contact">info@example.com</a></li>
-                <li><a href="tel:+380991111111" class="contact">+38 099 111 11 11</a></li>
-            </ul>
-        </address>
+        <div class="container footer">
+            <div class="container-address">
+                <a href="./index.html" class="logo">Web<span class="foot-part">Studio</span></a>
+                <address>
+                    <ul>
+                        <li><a href="https://goo.gl/maps/piqngm7oDQpEDh6u6" target="_blank"
+                                rel="noopener nofollow noreferrer" class="map">г. Киев, пр-т Леси Украинки, 26</a></li>
+                        <li><a href="mailto:info@example.com" class="contact">info@example.com</a></li>
+                        <li><a href="tel:+380991111111" class="contact">+38 099 111 11 11</a></li>
+                    </ul>
+                </address>
+            </div>
+            <div class="container-link">
+                <p class="invitation">Присоединяйтесь</p>
+                <ul class="company-contacts-list">
+                    <li class="company-contacts-item">
+                        <a class="company-contacts-link" href="">
+                            <svg class="company-contacts-icon">
+                                <use href="./images/symbol-defs.svg#instagram-f"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="company-contacts-item">
+                        <a class="company-contacts-link" href="">
+                            <svg class="company-contacts-icon">
+                                <use href="./images/symbol-defs.svg#twitter-f"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="company-contacts-item">
+                        <a class="company-contacts-link" href="">
+                            <svg class="company-contacts-icon">
+                                <use href="./images/symbol-defs.svg#facebook-f"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="company-contacts-item">
+                        <a class="company-contacts-link" href="">
+                            <svg class="company-contacts-icon">
+                                <use href="./images/symbol-defs.svg#linkedin-f"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
-</body>
-</html>
+    </body>
+    </html>
